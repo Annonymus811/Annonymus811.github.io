@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cifradores Digitales</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🧠 Consola de Cifradores Digitales</h1>
+
+<!-- CÓDIGO BINARIO -->
+<div class="bloque">
+  <h2 class="titulo">Código Binario</h2>
+  <input type="text" id="textoBinario" placeholder="Escribe texto o código binario..."><br>
+  <button onclick="cifrarBinario()">Cifrar</button>
+  <button onclick="descifrarBinario()">Descifrar</button>
+</div>
+
+<!-- CIFRADO CÉSAR -->
+<div class="bloque">
+  <h2 class="titulo">Cifrado César</h2>
+  <input type="text" id="textoCesar" placeholder="Texto para cifrar o descifrar..."><br>
+  <input type="number" id="desplazamiento" placeholder="Desplazamiento (ej: 3)">
+  <br>
+  <button onclick="cifrarCesar()">Cifrar</button>
+  <button onclick="descifrarCesar()">Descifrar</button>
+</div>
+
+<!-- CÓDIGO MORSE -->
+<div class="bloque">
+  <h2 class="titulo">Código Morse</h2>
+  <input type="text" id="textoMorse" placeholder="Texto o código morse (.- .. etc.)"><br>
+  <button onclick="cifrarMorse()">Cifrar</button>
+  <button onclick="descifrarMorse()">Descifrar</button>
+</div>
+
+<!-- CONSOLA DIGITAL -->
+<div id="consola">
+  <strong>📟 Consola digital:</strong><br>
+</div>
+<button id="btnLimpiar" onclick="limpiarConsola()">🧹 Limpiar Consola</button>
+
+<script src="script.js"></script>
+</body>
+</html>

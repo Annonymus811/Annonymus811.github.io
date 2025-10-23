@@ -1,0 +1,78 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: "Consolas", monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #00ffea;
+  text-shadow: 0 0 10px #00ffea;
+}
+
+.bloque {
+  border: 2px solid #00ffea;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+}
+
+.bloque h2 {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #00ffea;
+  border: none;
+  color: #111;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #00b8a3;
+}
+
+#consola {
+  background-color: #000;
+  color: #0f0;
+  border: 2px solid #0f0;
+  border-radius: 10px;
+  width: 80%;
+  height: 150px;
+  padding: 15px;
+  margin-top: 30px;
+  overflow-y: auto;
+  box-shadow: 0 0 20px #0f0;
+}
+
+.titulo {
+  color: #00ffea;
+  text-shadow: 0 0 5px #00ffea;
+}
+
+#btnLimpiar {
+  background-color: #ff4040;
+  color: white;
+  margin-top: 10px;
+}
+
+#btnLimpiar:hover {
+  background-color: #d20000;
+}
